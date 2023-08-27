@@ -27,23 +27,6 @@ function updateCountdown() {
     document.querySelector('#countdown span').textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
-window.onload = function() {
-    setTimeout(() => {
-        document.getElementById('splash').style.display = 'none';
-        document.getElementById('main-content').style.display = 'block';
-    }, 3000); // 3 seconds
-};
-window.onload = function() {
-    // Start countdown
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-    
-    // Splash Screen Handling
-    setTimeout(() => {
-        document.getElementById('splash').style.display = 'none';
-        document.getElementById('main-content').style.display = 'block';
-    }, 2000); // 3 seconds
-};
 
 
 //js for calender
