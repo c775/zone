@@ -49,23 +49,42 @@ window.onload = function() {
 //js for calender
 
 const eventData = [
-    [ // Day 1
-        {time: "09:00 AM", event: "Meeting with team"},
-        {time: "01:00 PM", event: "Lunch Break"}
+    [ // Day 1: Welcome Day
+        {time: "09:00 AM", event: "Welcome Breakfast"},
+        {time: "10:00 AM", event: "Orientation & Introduction to Management Symposium"},
+        {time: "12:00 PM", event: "Lunch at Venue"},
+        {time: "01:00 PM - 05:00 PM", event: "Free Time for Exploring the Area"}
     ],
-    [ // Day 2
-        {time: "10:00 AM", event: "Presentation prep"},
-        {time: "03:00 PM", event: "Client Call"}
+    [ // Day 2: Foundations of Management
+        {time: "09:00 AM", event: "Opening Remarks"},
+        {time: "10:00 AM", event: "Speaker 1: Strategic Decision Making"},
+        {time: "11:30 AM", event: "Coffee Break"},
+        {time: "12:00 PM", event: "Speaker 2: Navigating Organizational Culture"},
+        {time: "01:00 PM", event: "Lunch Break"},
+        {time: "02:30 PM", event: "Speaker 3: Effective Team Management"},
+        {time: "04:00 PM", event: "Panel Discussion: Trends in Management"}
     ],
-    [ // Day 3
-        {time: "08:00 AM", event: "Brainstorming session"},
-        {time: "02:00 PM", event: "Review Meeting"}
+    [ // Day 3: Advanced Management Techniques
+        {time: "09:00 AM", event: "Recap of Day 2"},
+        {time: "10:00 AM", event: "Speaker 4: The Role of Data in Decision Making"},
+        {time: "11:30 AM", event: "Coffee Break"},
+        {time: "12:00 PM", event: "Speaker 5: Change Management in Dynamic Industries"},
+        {time: "01:00 PM", event: "Lunch Break"},
+        {time: "02:30 PM", event: "Speaker 6: Leadership vs Management: Striking the Balance"},
+        {time: "04:00 PM", event: "Closing Remarks & Preview of Workshops"}
     ],
-    [ // Day 4
-        {time: "11:00 AM", event: "Project Kickoff"},
-        {time: "04:00 PM", event: "Wrap up & Summary"}
+    [ // Day 4: Workshops and Practical Applications
+        {time: "09:00 AM", event: "Workshop: Real-world Strategic Planning"},
+        {time: "11:00 AM", event: "Coffee Break"},
+        {time: "11:30 AM", event: "Workshop: Navigating Corporate Politics and Power Dynamics"},
+        {time: "01:00 PM", event: "Lunch & Networking Session"},
+        {time: "03:00 PM", event: "Interactive Session: Role-playing in Crisis Management"},
+        {time: "05:00 PM", event: "Farewell and Commitment to Continuous Learning"}
     ]
 ];
+
+// The selectDay function remains unchanged.
+
 
 function selectDay(index) {
     const events = eventData[index];
