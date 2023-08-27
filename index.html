@@ -8,16 +8,23 @@
 </head>
 <body>
 
-<div id="content">
-    <!-- Default content -->
-    <p>Welcome to the default content.</p>
+<div id="splash" class="splash-screen">
+    <h1>Welcome One Team Panda</h1>
+    <p>Zone Meeting will be on Dec 12, 2023</p>
+    <div id="countdown">Time left: <span></span></div>
 </div>
+
+<div id="main-content" style="display: none;">
+    <div id="content">
+        <!-- Default content -->
+        <p>Welcome to the default content.</p>
+    </div>
 
 
 <nav class="bottom-nav">
-    <button onclick="loadContent('content1')">Content 1</button>
-    <button onclick="loadContent('content2')">Content 2</button>
-    <button onclick="loadContent('content3')">Content 3</button>
+    <button onclick="loadContent('content1')">Speakers</button>
+    <button onclick="loadContent('content2')">Calendar</button>
+    <button onclick="loadContent('content3')">About</button>
 </nav>
 
 
