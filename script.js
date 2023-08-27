@@ -112,22 +112,7 @@ const speakersData = [
         area: 'Strategic Decision Making',
         additionalInfo: 'John has over 20 years of experience in...'
     },
-    {
-        day: 2,
-        image: 'path/to/image1.jpg', 
-        name: 'joe Doe',
-        role: 'CEO at ABC Corp',
-        area: 'Strategic Decision Making',
-        additionalInfo: 'John has over 20 years of experience in...'
-    },
-    {
-        day: 2,
-        image: 'path/to/image1.jpg', 
-        name: 'andrew Doe',
-        role: 'CEO at ABC Corp',
-        area: 'Strategic Decision Making',
-        additionalInfo: 'John has over 20 years of experience in...'
-    }
+
     // ... Add more speakers for each day similarly
 ];
 
