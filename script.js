@@ -106,11 +106,27 @@ function selectDay(index) {
 const speakersData = [
     {
         day: 1,
-        image: 'path/to/image1.jpg', 
-        name: 'John Doe',
-        role: 'CEO at ABC Corp',
-        area: 'Strategic Decision Making',
-        additionalInfo: 'John has over 20 years of experience in...'
+        image: 'headshots/andrew-cherng.jpg', , 
+        name: 'Andrew cherng',
+        role: 'CEO',
+        area: 'Panda-RG',
+        additionalInfo: 'rem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },    
+	{
+        day: 2,
+        image: 'headshots/j-wang.jpg',  
+        name: 'jeff wang',
+        role: 'ZVP',
+        area: 'T-Bone',
+        additionalInfo: 'rem ipsum dolor sit amet, consectetur adipiscing elit. '
+    },    
+	{
+        day: 3,
+        image: 'headshots/p-cherng2.jpg', 
+        name: 'peggy cherng',
+        role: 'COO',
+        area: 'Panda-RG',
+        additionalInfo: 'rem ipsum dolor sit amet, consectetur adipiscing elit. '
     },
 
     // ... Add more speakers for each day similarly
