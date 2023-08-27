@@ -31,7 +31,7 @@ window.onload = function() {
     setTimeout(() => {
         document.getElementById('splash').style.display = 'none';
         document.getElementById('main-content').style.display = 'block';
-    }, 2000); // 3 seconds
+    }, 3000); // 3 seconds
 };
 window.onload = function() {
     // Start countdown
@@ -42,7 +42,7 @@ window.onload = function() {
     setTimeout(() => {
         document.getElementById('splash').style.display = 'none';
         document.getElementById('main-content').style.display = 'block';
-    }, 2000); // 3 seconds
+    }, 3000); // 3 seconds
 };
 
 
