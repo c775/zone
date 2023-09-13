@@ -44,3 +44,21 @@
 .speaker-info {
     margin-top: 10px;
 }
+
+
+
+    .calendar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .day {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .event {
+        margin-bottom: 10px;
+    }
+    .event-details {
+        margin-bottom: 5px;
+    }
